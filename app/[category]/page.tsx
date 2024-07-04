@@ -18,6 +18,9 @@ async function getData(category: string) {
   return data
 
 }
+
+export const dynamic = "force-dynamic"
+
 async function CategoryPage({ params }: { params: { category: string } }) {
   const data: simplifiedProduct[] = await getData(params.category)
 

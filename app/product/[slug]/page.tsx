@@ -28,6 +28,8 @@ async function getData(slug: string) {
   return data;
 }
 
+export const dynamic = "force-dynamic"
+
 export default async function ProductPage({ params }: any) {
   const data: fullProduct = await getData(params.slug)
   return (
@@ -77,7 +79,8 @@ export default async function ProductPage({ params }: any) {
                 image={data.images[0]}
                 price_id={data.price_id}
               />
-              <Button variant={"outline"}>Checkout</Button>
+              <Button variant={"outline"}>Checkout</Button> 
+              {/* put checkout component above instead of button and give it props of add carts */}
 
             </div>
 
