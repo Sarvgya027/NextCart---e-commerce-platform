@@ -15,11 +15,7 @@ A high-performance e-commerce platform built with Next.js, Sanity.io, and Stripe
 - **TailwindCSS**: Utility-first CSS framework for styling
 - **Stripe**: Payment processing for secure transactions
 
-## Features
-- **High Performance**: Optimized static and dynamic page rendering with efficient caching, resulting in 20% less loading time and 75% faster websites.
-- **Content Management**: Utilized GROQ queries with Sanity.io for seamless content and product management.
-- **Secure Payments**: Integrated Stripe for 100% secure transactions, enhancing user trust.
-- **Responsive UI**: Designed intuitive and responsive UI components with Shadcn and TailwindCSS.
+
 
 ## Installation
 
